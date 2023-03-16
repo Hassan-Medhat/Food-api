@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes Foods</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="vh-100 d-flex justify-content-center align-items-start flex-wrap position-relative">
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Recipes</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Recipes">Recipe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+          <h1 class="w-100">never miss a recipe!</h1>
+    </header>
+
+
+    <section id="Recipes">
+      <div class="search-recipe">
+        <input type="search" class="searchField" id="searchInput">
+        <button class="button" id="searchBtn">search</button>
+      </div>
+
+      <div class="container-fluid text-left py-5">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row" id="recipesRow">
+
+            </div>
+          </div>
+  
+          <div class="col-md-4" id="recipeDetails">
+            <!-- Recipe Details -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="Contact">
+      <div class="container-fluid">
+        <h2 class="py-3">Contact Us</h2>
+        <div class="form-group w-75">
+          <input class="form-control my-2" type="text" name="Name" placeholder="Name...">
+          <input class="form-control my-2" type="email" name="Email" placeholder="E-mail...">
+          <input class="form-control my-2" type="text" name="Subject" placeholder="Subject...">
+          <textarea class="form-control my-2" name="Message" id="" cols="30" rows="5" placeholder="Message..."></textarea>
+        </div>
+
+        <button id="submit" class="mybtn">Send</button>
+      </div>
+    </section>
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

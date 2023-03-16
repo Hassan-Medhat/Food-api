@@ -1,0 +1,100 @@
+body {
+    font-family: 'segoe ui light';
+}
+header {
+    background-image: url('../images/headerPicture.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+nav {
+    background-color: #cfc8c833;
+}
+
+
+.navbar-brand , .nav-item {
+    padding: 15px 25px;
+}
+
+.navbar-brand , .nav-link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+#Recipes {
+    padding-top: 50px;
+    background-image: url('../images/mainPicture.png');
+    background-size: cover;
+}
+
+.search-recipe {
+    display: flex;
+    justify-content: center;
+}
+
+.search-recipe .searchField {
+    width: 600px;
+    height: 40px;
+    border: 1px solid #685d5d33;
+    border-radius: 8px;
+    padding: 0 8px;
+    color: #000000b3;
+}
+
+.searchField:focus {
+    outline: none;
+}
+
+.search-recipe .button {
+    margin-left: 5px;
+    padding: 7px 25px;
+    border: 1px solid #685d5d33;
+    border-radius: 8px;
+    background-color: #83525266;
+    color: #000000b3;
+    text-transform: capitalize;
+}
+
+.search-recipe .button:hover {
+    background-color: transparent;
+}
+
+
+.recipe {
+    cursor: pointer;
+}
+
+.recipe img {
+    height: 200px;
+    border-radius: 8px;
+}
+
+h3 {
+    color:#c5360bca;
+}
+
+#Contact {
+    padding-bottom: 25px;
+    background-color: #83525266;
+}
+
+.mybtn {
+    margin: 15px 0;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border: 1px solid #685d5d33;
+}
+
+.mybtn:hover {
+    background-color: transparent;
+}
